@@ -1,48 +1,62 @@
-/*textes principaux*/
+/*textes */
 
 .texte {
-  font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(255, 255, 255);
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
 }
 .titre {
-  font-family: "Lugrasimo", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color:rgb(0, 0, 0);
-  text-align: center;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 h1  {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
 }
-body {background-color:rgb(248, 132, 54);
+
+.center {
+    text-align: center;
 }
-ul {
-    background-color: rgb(248, 132, 54);
+
+.sommaire {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-align: center;
 }
+
+/*images*/
+
 #img1 {
     height: 400px;
     width: 250px;
     border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 #imgheader {
     height: 500px;
     width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
 
 }
-.sommaire {
-  font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(255, 255, 255);
-  text-align: center;
-}
-.center {
-    text-align: center;
-}
+
+/*bouton*/
+
 .bouton {
     font-size: 20px;
     background-color: rgb(248, 132, 54); 
@@ -50,10 +64,40 @@ ul {
     border-radius:25px;
     width: 150px;
 }
-.list ul {
-    list-style-type: none;
-}
+
 .centrerbouton {
     margin-left: 10%;
     transform: translateX(-50%);
+}
+
+/*liste*/
+
+.list ul {
+    list-style-type: none;
+}
+
+
+
+/*mise en page*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color:rgb(248, 132, 54);
+    background: linear-gradient(135deg, rgb(248, 132, 54), black);
 }
