@@ -1,0 +1,59 @@
+/*textes principaux*/
+
+.texte {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+.titre {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+
+h1  {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+body {background-color:rgb(248, 132, 54);
+}
+ul {
+    background-color: rgb(248, 132, 54);
+}
+#img1 {
+    height: 400px;
+    width: 250px;
+    border-radius: 25px;
+}
+#imgheader {
+    height: 500px;
+    width: 1200px;
+
+}
+.sommaire {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.center {
+    text-align: center;
+}
+.bouton {
+    font-size: 20px;
+    background-color: rgb(248, 132, 54); 
+    border: 1px solid black;
+    border-radius:25px;
+    width: 150px;
+}
+.list ul {
+    list-style-type: none;
+}
+.centrerbouton {
+    margin-left: 10%;
+    transform: translateX(-50%);
+}
