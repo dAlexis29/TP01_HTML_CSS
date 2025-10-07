@@ -24,14 +24,6 @@ h1  {
     text-align: center;
 }
 
-.sommaire {
-    font-family: "Quintessential", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    list-style-type: none;
-    text-align: center;
-}
 
 /*images*/
 
@@ -47,12 +39,12 @@ h1  {
 #imgheader {
     height: 500px;
     width: 1200px;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     height: auto;
-
 }
 
 /*bouton*/
@@ -66,15 +58,38 @@ h1  {
 }
 
 .centrerbouton {
-    margin-left: 10%;
-    transform: translateX(-50%);
+    display: flex;
+    float:left;
     text-decoration: none;
+    transform: translateX(100%);
+    margin-bottom: 80px;
+}
+
+.centerbouton {
+    text-decoration: none;
+
 }
 
 /*liste*/
 
 .list ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.list li {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-align: center;
 }
 
 
@@ -102,4 +117,22 @@ footer {
 body {
     background-color:rgba(90, 2, 2, 0.849);
     background: linear-gradient(to top, rgb(122, 4, 4), black);
+}
+
+#sommaire {
+    background-color:rgba(90, 2, 2, 0.849);
+    background: linear-gradient(to top, rgb(46, 2, 2), black);
+    height: 15;
+    margin: 0;
+    padding: 15;
+    border: 1px solid black;
+    border-radius:25px;
+    display: flex;
+    justify-content: center;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(255, 0, 0);
+    text-align: center;
+    margin-bottom: 10px;
 }
