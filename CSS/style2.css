@@ -59,14 +59,18 @@ h1  {
 }
 
 .centrerbouton {
-    display: flex;
-    float:left;
-    text-decoration: none;
-    transform: translateX(100%);
+    display: block;
+    float: left;
+    margin-left: -100px;   
     margin-bottom: 80px;
     height: 200px;
     gap: 10px;
+    transform: none;
+
 }
+
+
+
 
 .centerbouton {
     text-decoration: none;
