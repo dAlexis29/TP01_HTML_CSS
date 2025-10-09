@@ -6,6 +6,20 @@
     font-style: normal;
     color: rgb(255, 255, 255);
 }
+
+.intro {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid black;
+    border-radius:25px;
+    margin-left: 520px;
+    margin-right: 520px;
+    background: linear-gradient(to top, rgb(136, 125, 125), black);
+}
+
 .titre {
     font-family: "Lugrasimo", cursive;
     font-weight: 400;
@@ -13,6 +27,16 @@
     color:rgb(255, 0, 0);
     text-align: center;
     margin-bottom: 10px;
+}
+
+.titre2 {
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 0;
+    
 }
 
 h1  {
@@ -40,6 +64,8 @@ h1  {
     text-decoration: none;
     transform: translateX(100%);
     margin-bottom: 80px;
+    height: 200px;
+    gap: 10px;
 }
 
 .centerbouton {
@@ -47,6 +73,27 @@ h1  {
 
 }
 
+/*images*/
+
+.image {
+    height: 400px;
+    width: 850px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+#imgheader {
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
 
 
 /*mise en page*/

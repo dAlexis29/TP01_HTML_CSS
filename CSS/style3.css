@@ -1,3 +1,144 @@
-body {
-    background-color: violet;
+/*textes */
+
+.texte {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
 }
+
+.intro {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid black;
+    border-radius:25px;
+    margin-left: 520px;
+    margin-right: 520px;
+    background: linear-gradient(to top, rgb(136, 125, 125), black);
+}
+
+.titre {
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(255, 0, 0);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titre2 {
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 0;
+    
+}
+
+h1  {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+/*bouton*/
+
+.bouton {
+    font-size: 20px;
+    background-color: rgb(248, 132, 54); 
+    border: 1px solid black;
+    border-radius:25px;
+    width: 200px;
+    height: 100;
+    margin-top: 5px;
+}
+
+.centrerbouton {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+
+}
+
+.centerbouton {
+    text-decoration: none;
+}
+
+/*images*/
+
+.image {
+    height: 400px;
+    width: 850px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+#imgheader {
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/*tableau*/
+
+.tableau {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(122, 111, 111));
+}
+
+
+
+
+/*mise en page*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color:rgba(90, 2, 2, 0.849);
+    background: linear-gradient(to top, rgb(122, 4, 4), black);
+    padding-bottom: 50px;
+}
+
