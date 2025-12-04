@@ -1,0 +1,109 @@
+/*mise en page*/
+body {
+    background: #23242a;
+    color: #f3f3f3;
+    font-family: 'Quintessential', 'Lugrasimo', Arial, sans-serif;
+    margin-bottom: 30px;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background: #181920;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px #0006;
+}
+
+header h1 {
+    font-family: 'Lugrasimo', cursive;
+    font-size: 2.5em;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+    color: #ff6600;
+    text-shadow: 2px 2px 8px #000a;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    background: #181920;
+    color: #aaa;
+    padding: 1px 0;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-top: 2px solid #ff6600;
+    margin-top: 20px;
+}
+
+main {
+    display: block;
+    unicode-bidi: isolate;
+    padding: 80px;
+}
+
+
+/*les trucs en haut*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 6px 18px;
+    border-radius: 20px;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a.active,
+nav a:hover {
+    background: #ff6600;
+    color: #181920;
+}
+
+/*contenu*/
+
+
+
+h2 {
+    color: #ff6600;
+    font-family: 'Lugrasimo', cursive;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+}
+
+/*listes*/
+
+ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/*images*/
+
+img {
+    width: 500px;
+    height: 250px;
+    border: 50px;
+    color: #ff6600;
+    border-radius: 50px;
+}
+
+
